@@ -42,7 +42,13 @@
   const state = { key: 'zen1', question: '', deck: [], picks: [], flipped: new Set() };
 
   /* ── 그림 ─────────────────────────── */
+  /* cards/<id>.jpg 가 있는 카드는 그 그림을 쓰고, 없으면 채색 그림(paint.js)을 쓴다 */
+  const PHOTO = new Set('m00 m01 m02 m03 m04 m05 m06 m07 m08 m09 m10 m11 m12 m13 m14 m15 m16 m17 m18 m19 m20 m21 m22'.split(' ')
+    .concat(...['f', 'w', 'c', 'r'].map((s) => Array.from({ length: 14 }, (_, i) => s + String(i + 1).padStart(2, '0')))));
   function faceHTML(c) {
+    if (PHOTO.has(c.id)) {
+      return `<span class="face is-photo"><img src="cards/${c.id}.jpg" alt="${esc(c.ko)} 카드" loading="lazy" decoding="async"></span>`;
+    }
     const frame = c.suit === 'r' ? ' style="stroke:url(#rb)"' : '';
     return `<span class="face"><svg class="face-art s-${c.suit}" viewBox="0 0 120 200" role="img" aria-label="${esc(c.ko)} 카드">` +
       '<rect class="fg" width="120" height="200"/>' +
