@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MoonHongZEN</title>
+<meta name="description" content="오쇼 젠 타로 79장을 배우는 곳. 카드 도감과 익히기 퀴즈, 일곱 가지 배열로 뽑아 보기.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230c1024'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%23f2c230' stroke-width='5' stroke-dasharray='98 15' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Gowun+Batang:wght@400;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sky" aria-hidden="true"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs id="sharedDefs">
+    <clipPath id="pc"><rect width="100" height="110" rx="4"/></clipPath>
+    <linearGradient id="rb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d2543c"/><stop offset=".25" stop-color="#d9a21b"/>
+      <stop offset=".5" stop-color="#4a9e6b"/><stop offset=".75" stop-color="#3f86c9"/><stop offset="1" stop-color="#8a5cc7"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<header class="top">
+  <a class="brand" href="#learn" aria-label="MoonHongZEN 처음으로">Moon<b>Hong</b>ZEN</a>
+  <nav aria-label="주요 메뉴">
+    <a href="#learn">덱의 짜임</a>
+    <a href="#library">카드 도감</a>
+    <a href="#study">익히기</a>
+    <a href="#draw">뽑아 보기</a>
+    <a href="#about">이야기</a>
+  </nav>
+</header>
+
+<main>
+  <section class="intro prose" id="learn">
+    <div>
+      <p class="eyebrow">Osho Zen Tarot · 일흔아홉 장</p>
+      <h1>앞날이 아니라,<br>지금 여기를 읽는 카드</h1>
+      <p class="lead">오쇼 젠 타로는 “어떻게 될까요?”가 아니라 “지금 내 안에서 무슨 일이 일어나고 있나요?”를 묻습니다. 이 사이트는 그 일흔아홉 장을 차근차근 배우기 위한 곳입니다. 짜임을 먼저 보고, 도감에서 한 장씩 읽고, 퀴즈로 익힌 다음, 직접 뽑아 보세요.</p>
+      <p class="steps-nav">
+        <a class="primary" href="#library">도감부터 보기</a>
+        <a class="ghost" href="#study">퀴즈로 익히기</a>
+        <a class="ghost" href="#draw">바로 뽑아 보기</a>
+      </p>
+    </div>
+
+    <div>
+      <h2>덱의 짜임</h2>
+      <p class="section-lead">보통 타로와 뼈대는 같고 이름과 눈길이 다릅니다. 다섯 묶음만 알면 79장이 한눈에 들어옵니다.</p>
+    </div>
+    <div class="suit-grid" id="suitGrid"></div>
+
+    <ol class="guide-steps">
+      <li>
+        <h3>메이저는 바보의 여정입니다</h3>
+        <p>0번 <strong>바보</strong>가 21번 <strong>완성</strong>에 이르기까지, 사람이 깨어나는 길의 큰 고비 22장입니다. 메이저가 나오면 일상의 사건보다 삶의 큰 주제가 걸려 있다고 읽습니다.</p>
+        <p>이름이 많이 바뀌었습니다. 교황 자리는 <strong>무</strong>, 죽음은 <strong>변형</strong>, 악마는 <strong>조건화</strong>, 탑은 <strong>번개</strong>입니다. 도감의 카드마다 전통 타로의 어느 자리인지 적어 두었습니다.</p>
+      </li>
+      <li>
+        <h3>스승 카드가 한 장 더 있습니다</h3>
+        <p>번호 없는 79번째 카드 <strong>스승</strong>은 전통 타로에 없습니다. 바보의 여정이 닿는 곳, 돌고 도는 바퀴를 넘어선 자리를 뜻합니다.</p>
+        <p>그래서 이 덱은 78장이 아니라 79장입니다.</p>
+      </li>
+      <li>
+        <h3>마이너 네 묶음은 원소입니다</h3>
+        <p><strong>불</strong>은 행동, <strong>물</strong>은 감정, <strong>구름</strong>은 마음(생각), <strong>무지개</strong>는 몸과 현실입니다. 완드·컵·소드·펜타클에 차례로 해당합니다.</p>
+        <p>칼 대신 구름인 까닭은, 생각이 하늘을 가리는 구름처럼 왔다가 지나가는 것이기 때문입니다. 흙 대신 무지개인 까닭은 땅과 하늘을 잇는 다리이기 때문입니다.</p>
+      </li>
+      <li>
+        <h3>인물 카드는 사람이 아니라 숙달입니다</h3>
+        <p>시종·기사·여왕·왕은 누군가를 가리키기보다, 그 원소를 다루는 솜씨가 어디까지 익었는지를 보여 줍니다.</p>
+        <p>불의 왕 <strong>창조하는 자</strong>는 힘을 빚는 데 쓰는 사람이고, 구름의 왕 <strong>통제</strong>는 생각이 주인 자리에 앉아 굳어 버린 모습입니다.</p>
+      </li>
+      <li>
+        <h3>카드마다 이름이 곧 뜻입니다</h3>
+        <p>숫자 카드에도 ‘스트레스’, ‘놓아 보내기’, ‘미루기’처럼 이름이 붙어 있습니다. 외울 것은 숫자의 뜻이 아니라 그 이름이 가리키는 마음의 상태입니다.</p>
+        <p>그래서 처음 배우기에 오히려 쉽습니다. 이름을 보고, 그 상태가 지금 내게 있는지 살피면 됩니다.</p>
+      </li>
+      <li>
+        <h3>좋은 카드도 나쁜 카드도 없습니다</h3>
+        <p>역방향을 쓰지 않고 길흉도 가리지 않습니다. ‘탈진’이 나왔다면 불운이 아니라 지금 쉬어야 한다는 거울입니다.</p>
+        <p>카드는 판결이 아니라 사진입니다. 지금 찍힌 모습을 알아차리면 그 순간부터 달라지기 시작합니다.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="library" id="library">
+    <h2>카드 도감</h2>
+    <p class="section-lead">0번 바보부터 무지개의 왕까지. 카드를 누르면 열쇠말과 원작 그림, 뜻, 카드가 건네는 질문이 펼쳐집니다.</p>
+    <div class="filters" id="filters" role="group" aria-label="묶음별로 보기"></div>
+    <div class="card-grid" id="cardGrid"></div>
+  </section>
+
+  <section class="study" id="study">
+    <h2>카드 익히기</h2>
+    <p class="section-lead">네 개 가운데 하나를 고르는 짧은 퀴즈입니다. 틀려도 괜찮습니다. 답을 고르면 그 카드의 뜻을 바로 보여 드립니다.</p>
+    <div class="filters" id="quizModes" role="group" aria-label="문제 방식"></div>
+    <div class="filters" id="quizGroups" role="group" aria-label="문제 범위"></div>
+    <div class="quiz" id="quiz"></div>
+  </section>
+
+  <section class="intro" id="draw">
+    <h2>뽑아 보기</h2>
+    <p class="section-lead">79장을 모두 섞어 뽑습니다. 질문은 “어떻게 될까요?”보다 “지금 이 일에서 내가 보아야 할 것은 무엇인가요?”처럼 나를 향하게 지어 보세요.</p>
+
+    <form class="setup" id="setup">
+      <fieldset class="spreads">
+        <legend>배열법을 고르세요</legend>
+        <div class="spread-options" id="spreadOptions"></div>
+      </fieldset>
+
+      <div class="question">
+        <label for="question">마음속 질문 <span>(선택)</span></label>
+        <input id="question" name="question" type="text" maxlength="80" autocomplete="off" placeholder="예) 이 관계에서 내가 보지 못하는 것은 무엇인가요?">
+      </div>
+
+      <button class="primary" type="submit">카드 섞기</button>
+    </form>
+  </section>
+
+  <section class="table" id="table" hidden>
+    <div class="table-head">
+      <h2 id="spreadTitle"></h2>
+      <p class="asked" id="asked" hidden></p>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+    </div>
+
+    <div class="table-actions" id="pickActions">
+      <button type="button" class="ghost" id="autoPick">자동으로 뽑기</button>
+    </div>
+
+    <div class="deck" id="deck" aria-label="뒤집어 놓은 카드 79장"></div>
+    <div class="layout" id="layout"></div>
+    <ol class="legend" id="legend"></ol>
+
+    <div class="table-actions" id="tableActions" hidden>
+      <button type="button" class="ghost" id="flipAll">모두 뒤집기</button>
+      <button type="button" class="ghost" id="redraw">다시 뽑기</button>
+      <a class="ghost" href="#draw">배열법 바꾸기</a>
+    </div>
+
+    <aside class="together" id="together" hidden></aside>
+    <div class="readings" id="readings"></div>
+  </section>
+
+  <section class="prose" id="about">
+    <h2>오쇼 젠 타로 이야기</h2>
+    <p class="section-lead">점을 치는 카드라기보다, 지금 이 순간을 비추는 거울로 만들어진 덱입니다.</p>
+
+    <div class="about-grid">
+      <article>
+        <h3>누가 만들었나</h3>
+        <p>인도의 명상가 <strong>오쇼</strong>(1931–1990)의 강의에서 뽑은 말을 해설로 삼고, 그의 제자인 화가 <strong>마 데바 파드마</strong>가 그림을 그렸습니다. 1990년대 중반에 세상에 나왔습니다.</p>
+        <p>원제에는 ‘선(禪)의 초월적인 놀이’라는 부제가 붙어 있습니다. 심각한 예언이 아니라 놀이로 대하라는 뜻입니다.</p>
+      </article>
+      <article>
+        <h3>왜 ‘젠’인가</h3>
+        <p>선(禪)은 지나간 일도 오지 않은 일도 아닌 <strong>지금 여기</strong>를 봅니다. 이 덱이 미래를 맞히려 하지 않는 까닭입니다.</p>
+        <p>바깥의 사건은 안쪽의 생각과 느낌이 비친 것이라고 보고, 카드를 통해 그 안쪽을 알아차리게 합니다.</p>
+      </article>
+      <article>
+        <h3>어떻게 읽나</h3>
+        <p>카드 이름을 먼저 봅니다. 그리고 “이 상태가 지금 내 어디에 있지?”라고 묻습니다. 떠오르는 장면이 있다면 그것이 풀이의 시작입니다.</p>
+        <p>불편한 카드일수록 밀어내지 말고 잠시 머물러 보세요. 알아차린 것은 힘을 잃고, 모르는 채 둔 것이 나를 끌고 다닙니다.</p>
+      </article>
+      <article>
+        <h3>배우는 순서</h3>
+        <p>메이저 23장을 바보의 여정으로 이어 읽고, 다음에 네 원소의 에이스와 왕을 견주어 봅니다. 묶음마다 시작과 숙달이 어떻게 다른지 보입니다.</p>
+        <p>그 뒤 하루 한 장씩 뽑아 그날의 나와 맞춰 보면 이름이 몸에 붙습니다.</p>
+      </article>
+    </div>
+
+    <ul class="cautions">
+      <li><strong>이 사이트의 그림은 원작이 아닙니다.</strong>카드 앞면은 뜻을 떠올리기 쉽도록 같은 주제를 이 사이트만의 구도로 새로 그린 그림입니다. 원작의 모습은 도감의 ‘원작 그림’ 설명을 참고하고, 실제 덱과 함께 보시면 좋습니다.</li>
+      <li><strong>해설은 배움을 돕는 요약입니다.</strong>덱에 딸린 해설서의 글을 옮긴 것이 아니라 카드 이름과 짜임을 바탕으로 새로 쓴 문장입니다. 깊이 공부할 때는 해설서를 곁에 두세요.</li>
+      <li><strong>카드는 거울입니다.</strong>결정과 책임은 언제나 내 몫이고, 몸과 마음이 많이 힘들 때는 전문가의 도움을 먼저 받으세요.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>오쇼 젠 타로(Osho Zen Tarot)의 카드 이름과 짜임을 따랐습니다. 카드 그림과 해설은 이 사이트를 위해 새로 만든 것입니다.</p>
+  <p class="copy">© 2026 월홍 (MoonHong). All rights reserved.</p>
+</footer>
+
+<dialog class="card-dialog" id="cardDialog" aria-labelledby="dialogTitle">
+  <button type="button" class="dialog-close" id="dialogClose" aria-label="닫기">×</button>
+  <div id="dialogBody"></div>
+  <div class="dialog-nav">
+    <button type="button" class="ghost" id="dialogPrev">← 앞 카드</button>
+    <button type="button" class="ghost" id="dialogNext">다음 카드 →</button>
+  </div>
+</dialog>
+
+<script src="cards.js"></script>
+<script src="art.js"></script>
+<script src="paint.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
