@@ -204,6 +204,7 @@
     $('flipAll').hidden = false;
     $('pickActions').hidden = false;
     $('autoPick').disabled = false;
+    if (journal) journal.hide();
     updateStatus();
   }
 
@@ -261,6 +262,7 @@
 
     const done = state.flipped.size === n;
     if (done) $('flipAll').hidden = true;
+    if (done && journal) journal.show();
     if (done && n > 1) {
       $('together').innerHTML = togetherHTML(state.picks);
       $('together').hidden = false;
@@ -433,6 +435,17 @@
     if (quiz.opts[i] === quiz.card) quiz.right += 1;
     renderQuiz(i);
   });
+
+  /* ── 리딩 일지에 저장 (허브의 journal-box.js를 못 불러오면 아무것도 하지 않는다) ── */
+  var journal = window.MoonHongJournal && window.MoonHongJournal.box ? window.MoonHongJournal.box({
+    deck: '오쇼 젠', deckId: 'oshozen', after: $('readings'),
+    read: () => {
+      const s = SPREADS[state.key];
+      if (!state.picks.length || state.flipped.size < s.pos.length) return null;
+      return { spread: s.name, question: state.question,
+        cards: state.picks.map((c, i) => ({ name: c.ko, position: s.pos[i][0], orientation: null })) };
+    }
+  }) : null;
 
   renderSuits();
   renderSetup();
