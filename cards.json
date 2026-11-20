@@ -7,7 +7,7 @@
     {
       "id": "m00",
       "name": "바보",
-      "image": "cards/m00.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m00.jpg",
       "keywords": [
         "믿음",
         "첫걸음",
@@ -20,7 +20,7 @@
     {
       "id": "m01",
       "name": "존재",
-      "image": "cards/m01.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m01.jpg",
       "keywords": [
         "소속감",
         "집",
@@ -33,7 +33,7 @@
     {
       "id": "m02",
       "name": "내면의 목소리",
-      "image": "cards/m02.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m02.jpg",
       "keywords": [
         "직관",
         "고요",
@@ -46,7 +46,7 @@
     {
       "id": "m03",
       "name": "창조성",
-      "image": "cards/m03.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m03.jpg",
       "keywords": [
         "표현",
         "놀이",
@@ -59,7 +59,7 @@
     {
       "id": "m04",
       "name": "반역자",
-      "image": "cards/m04.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m04.jpg",
       "keywords": [
         "자기 진실",
         "자유",
@@ -72,7 +72,7 @@
     {
       "id": "m05",
       "name": "무",
-      "image": "cards/m05.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m05.jpg",
       "keywords": [
         "비어 있음",
         "틈",
@@ -85,7 +85,7 @@
     {
       "id": "m06",
       "name": "연인",
-      "image": "cards/m06.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m06.jpg",
       "keywords": [
         "사랑",
         "만남",
@@ -98,7 +98,7 @@
     {
       "id": "m07",
       "name": "깨어 있음",
-      "image": "cards/m07.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m07.jpg",
       "keywords": [
         "알아차림",
         "베일이 걷힘",
@@ -111,7 +111,7 @@
     {
       "id": "m08",
       "name": "용기",
-      "image": "cards/m08.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m08.jpg",
       "keywords": [
         "모르는 곳으로",
         "자라남",
@@ -124,7 +124,7 @@
     {
       "id": "m09",
       "name": "홀로 있음",
-      "image": "cards/m09.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m09.jpg",
       "keywords": [
         "혼자의 충만",
         "내 안의 빛",
@@ -137,7 +137,7 @@
     {
       "id": "m10",
       "name": "변화",
-      "image": "cards/m10.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m10.jpg",
       "keywords": [
         "돌고 도는 흐름",
         "때",
@@ -150,7 +150,7 @@
     {
       "id": "m11",
       "name": "돌파",
-      "image": "cards/m11.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m11.jpg",
       "keywords": [
         "무너뜨림",
         "한계를 넘음",
@@ -163,7 +163,7 @@
     {
       "id": "m12",
       "name": "새로운 시야",
-      "image": "cards/m12.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m12.jpg",
       "keywords": [
         "시야가 열림",
         "뿌리와 날개",
@@ -176,7 +176,7 @@
     {
       "id": "m13",
       "name": "변형",
-      "image": "cards/m13.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m13.jpg",
       "keywords": [
         "죽고 다시 태어남",
         "끝냄",
@@ -189,7 +189,7 @@
     {
       "id": "m14",
       "name": "통합",
-      "image": "cards/m14.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m14.jpg",
       "keywords": [
         "반대의 만남",
         "하나로 녹음",
@@ -202,7 +202,7 @@
     {
       "id": "m15",
       "name": "조건화",
-      "image": "cards/m15.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m15.jpg",
       "keywords": [
         "길들여짐",
         "남이 준 얼굴",
@@ -215,7 +215,7 @@
     {
       "id": "m16",
       "name": "번개",
-      "image": "cards/m16.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m16.jpg",
       "keywords": [
         "갑작스러운 무너짐",
         "충격",
@@ -228,7 +228,7 @@
     {
       "id": "m17",
       "name": "침묵",
-      "image": "cards/m17.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m17.jpg",
       "keywords": [
         "고요",
         "비침",
@@ -241,7 +241,7 @@
     {
       "id": "m18",
       "name": "전생",
-      "image": "cards/m18.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m18.jpg",
       "keywords": [
         "되풀이되는 무늬",
         "오래된 뿌리",
@@ -254,7 +254,7 @@
     {
       "id": "m19",
       "name": "순수",
-      "image": "cards/m19.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m19.jpg",
       "keywords": [
         "아이의 눈",
         "다시 놀라워함",
@@ -267,7 +267,7 @@
     {
       "id": "m20",
       "name": "환상 너머",
-      "image": "cards/m20.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m20.jpg",
       "keywords": [
         "안을 봄",
         "꿈에서 깸",
@@ -280,7 +280,7 @@
     {
       "id": "m21",
       "name": "완성",
-      "image": "cards/m21.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m21.jpg",
       "keywords": [
         "마지막 조각",
         "매듭",
@@ -293,7 +293,7 @@
     {
       "id": "m22",
       "name": "스승",
-      "image": "cards/m22.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/m22.jpg",
       "keywords": [
         "넘어섬",
         "자기 자신의 주인",
@@ -306,7 +306,7 @@
     {
       "id": "f01",
       "name": "근원",
-      "image": "cards/f01.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f01.jpg",
       "keywords": [
         "중심의 힘",
         "샘",
@@ -319,7 +319,7 @@
     {
       "id": "f02",
       "name": "가능성",
-      "image": "cards/f02.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f02.jpg",
       "keywords": [
         "넓은 시야",
         "열린 길",
@@ -332,7 +332,7 @@
     {
       "id": "f03",
       "name": "체험",
-      "image": "cards/f03.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f03.jpg",
       "keywords": [
         "직접 느끼기",
         "닿음",
@@ -345,7 +345,7 @@
     {
       "id": "f04",
       "name": "참여",
-      "image": "cards/f04.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f04.jpg",
       "keywords": [
         "함께하기",
         "내 몫",
@@ -358,7 +358,7 @@
     {
       "id": "f05",
       "name": "전체성",
-      "image": "cards/f05.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f05.jpg",
       "keywords": [
         "온전히 쏟음",
         "몰입",
@@ -371,7 +371,7 @@
     {
       "id": "f06",
       "name": "성공",
-      "image": "cards/f06.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f06.jpg",
       "keywords": [
         "절정",
         "환호",
@@ -384,7 +384,7 @@
     {
       "id": "f07",
       "name": "스트레스",
-      "image": "cards/f07.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f07.jpg",
       "keywords": [
         "과부하",
         "쥐고 있는 것이 너무 많음",
@@ -397,7 +397,7 @@
     {
       "id": "f08",
       "name": "여행",
-      "image": "cards/f08.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f08.jpg",
       "keywords": [
         "길 위",
         "과정",
@@ -410,7 +410,7 @@
     {
       "id": "f09",
       "name": "탈진",
-      "image": "cards/f09.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f09.jpg",
       "keywords": [
         "기계처럼",
         "바닥난 힘",
@@ -423,7 +423,7 @@
     {
       "id": "f10",
       "name": "억압",
-      "image": "cards/f10.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f10.jpg",
       "keywords": [
         "눌러 담음",
         "굳은 몸",
@@ -436,7 +436,7 @@
     {
       "id": "f11",
       "name": "장난기",
-      "image": "cards/f11.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f11.jpg",
       "keywords": [
         "놀이",
         "웃음",
@@ -449,7 +449,7 @@
     {
       "id": "f12",
       "name": "강렬함",
-      "image": "cards/f12.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f12.jpg",
       "keywords": [
         "한 방향",
         "화살",
@@ -462,7 +462,7 @@
     {
       "id": "f13",
       "name": "나눔",
-      "image": "cards/f13.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f13.jpg",
       "keywords": [
         "넘쳐흐름",
         "베풂",
@@ -475,7 +475,7 @@
     {
       "id": "f14",
       "name": "창조하는 자",
-      "image": "cards/f14.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/f14.jpg",
       "keywords": [
         "다스리는 힘",
         "숙련",
@@ -488,7 +488,7 @@
     {
       "id": "w01",
       "name": "흐름을 따라",
-      "image": "cards/w01.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w01.jpg",
       "keywords": [
         "내맡김",
         "떠 있기",
@@ -501,7 +501,7 @@
     {
       "id": "w02",
       "name": "다정함",
-      "image": "cards/w02.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w02.jpg",
       "keywords": [
         "벗",
         "나란히 섬",
@@ -514,7 +514,7 @@
     {
       "id": "w03",
       "name": "축하",
-      "image": "cards/w03.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w03.jpg",
       "keywords": [
         "함께 기뻐함",
         "춤",
@@ -527,7 +527,7 @@
     {
       "id": "w04",
       "name": "안으로 향하기",
-      "image": "cards/w04.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w04.jpg",
       "keywords": [
         "눈을 감음",
         "중심으로",
@@ -540,7 +540,7 @@
     {
       "id": "w05",
       "name": "과거에 매달림",
-      "image": "cards/w05.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w05.jpg",
       "keywords": [
         "추억",
         "놓지 못함",
@@ -553,7 +553,7 @@
     {
       "id": "w06",
       "name": "꿈",
-      "image": "cards/w06.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w06.jpg",
       "keywords": [
         "환상",
         "누군가 채워 주리라는 기대",
@@ -566,7 +566,7 @@
     {
       "id": "w07",
       "name": "투사",
-      "image": "cards/w07.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w07.jpg",
       "keywords": [
         "덧씌움",
         "내가 비춘 그림",
@@ -579,7 +579,7 @@
     {
       "id": "w08",
       "name": "놓아 보내기",
-      "image": "cards/w08.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w08.jpg",
       "keywords": [
         "떨어짐",
         "스며듦",
@@ -592,7 +592,7 @@
     {
       "id": "w09",
       "name": "게으름",
-      "image": "cards/w09.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w09.jpg",
       "keywords": [
         "안주",
         "다 왔다는 착각",
@@ -605,7 +605,7 @@
     {
       "id": "w10",
       "name": "조화",
-      "image": "cards/w10.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w10.jpg",
       "keywords": [
         "가슴과 머리의 어울림",
         "평화",
@@ -618,7 +618,7 @@
     {
       "id": "w11",
       "name": "이해",
-      "image": "cards/w11.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w11.jpg",
       "keywords": [
         "열린 새장",
         "이미 자유로움",
@@ -631,7 +631,7 @@
     {
       "id": "w12",
       "name": "신뢰",
-      "image": "cards/w12.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w12.jpg",
       "keywords": [
         "뛰어내림",
         "삶에 맡김",
@@ -644,7 +644,7 @@
     {
       "id": "w13",
       "name": "받아들임",
-      "image": "cards/w13.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w13.jpg",
       "keywords": [
         "열려 있음",
         "비운 그릇",
@@ -657,7 +657,7 @@
     {
       "id": "w14",
       "name": "치유",
-      "image": "cards/w14.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/w14.jpg",
       "keywords": [
         "상처를 드러냄",
         "온전함으로 돌아감",
@@ -670,7 +670,7 @@
     {
       "id": "c01",
       "name": "의식",
-      "image": "cards/c01.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c01.jpg",
       "keywords": [
         "구름 너머 하늘",
         "맑은 앎",
@@ -683,7 +683,7 @@
     {
       "id": "c02",
       "name": "분열",
-      "image": "cards/c02.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c02.jpg",
       "keywords": [
         "둘로 갈림",
         "결정하지 못함",
@@ -696,7 +696,7 @@
     {
       "id": "c03",
       "name": "얼어붙은 고립",
-      "image": "cards/c03.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c03.jpg",
       "keywords": [
         "얼음",
         "닫힌 가슴",
@@ -709,7 +709,7 @@
     {
       "id": "c04",
       "name": "미루기",
-      "image": "cards/c04.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c04.jpg",
       "keywords": [
         "내일로 미룸",
         "창밖의 삶",
@@ -722,7 +722,7 @@
     {
       "id": "c05",
       "name": "비교",
-      "image": "cards/c05.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c05.jpg",
       "keywords": [
         "견주기",
         "우열",
@@ -735,7 +735,7 @@
     {
       "id": "c06",
       "name": "짐",
-      "image": "cards/c06.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c06.jpg",
       "keywords": [
         "남의 기대",
         "떠맡은 것",
@@ -748,7 +748,7 @@
     {
       "id": "c07",
       "name": "정치",
-      "image": "cards/c07.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c07.jpg",
       "keywords": [
         "가면",
         "계산",
@@ -761,7 +761,7 @@
     {
       "id": "c08",
       "name": "죄책감",
-      "image": "cards/c08.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c08.jpg",
       "keywords": [
         "자책",
         "안의 재판관",
@@ -774,7 +774,7 @@
     {
       "id": "c09",
       "name": "슬픔",
-      "image": "cards/c09.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c09.jpg",
       "keywords": [
         "상실",
         "눈물",
@@ -787,7 +787,7 @@
     {
       "id": "c10",
       "name": "다시 태어남",
-      "image": "cards/c10.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c10.jpg",
       "keywords": [
         "낙타·사자·아이",
         "마음을 넘어섬",
@@ -800,7 +800,7 @@
     {
       "id": "c11",
       "name": "마음",
-      "image": "cards/c11.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c11.jpg",
       "keywords": [
         "끝없는 생각",
         "머릿속 소음",
@@ -813,7 +813,7 @@
     {
       "id": "c12",
       "name": "싸움",
-      "image": "cards/c12.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c12.jpg",
       "keywords": [
         "갑옷",
         "맞서기",
@@ -826,7 +826,7 @@
     {
       "id": "c13",
       "name": "도덕",
-      "image": "cards/c13.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c13.jpg",
       "keywords": [
         "옳고 그름",
         "꼿꼿함",
@@ -839,7 +839,7 @@
     {
       "id": "c14",
       "name": "통제",
-      "image": "cards/c14.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/c14.jpg",
       "keywords": [
         "틀어쥠",
         "빈틈없음",
@@ -852,7 +852,7 @@
     {
       "id": "r01",
       "name": "성숙",
-      "image": "cards/r01.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r01.jpg",
       "keywords": [
         "익은 사람",
         "안에서 피어남",
@@ -865,7 +865,7 @@
     {
       "id": "r02",
       "name": "순간에서 순간으로",
-      "image": "cards/r02.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r02.jpg",
       "keywords": [
         "한 걸음씩",
         "징검다리",
@@ -878,7 +878,7 @@
     {
       "id": "r03",
       "name": "인도",
-      "image": "cards/r03.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r03.jpg",
       "keywords": [
         "안내자",
         "안의 길잡이",
@@ -891,7 +891,7 @@
     {
       "id": "r04",
       "name": "구두쇠",
-      "image": "cards/r04.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r04.jpg",
       "keywords": [
         "움켜쥠",
         "잃을까 두려움",
@@ -904,7 +904,7 @@
     {
       "id": "r05",
       "name": "이방인",
-      "image": "cards/r05.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r05.jpg",
       "keywords": [
         "끼지 못함",
         "문 앞의 아이",
@@ -917,7 +917,7 @@
     {
       "id": "r06",
       "name": "타협",
-      "image": "cards/r06.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r06.jpg",
       "keywords": [
         "눈치",
         "적당히 맞춤",
@@ -930,7 +930,7 @@
     {
       "id": "r07",
       "name": "인내",
-      "image": "cards/r07.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r07.jpg",
       "keywords": [
         "기다림",
         "익는 시간",
@@ -943,7 +943,7 @@
     {
       "id": "r08",
       "name": "평범함",
-      "image": "cards/r08.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r08.jpg",
       "keywords": [
         "일상",
         "소박함",
@@ -956,7 +956,7 @@
     {
       "id": "r09",
       "name": "익음",
-      "image": "cards/r09.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r09.jpg",
       "keywords": [
         "때가 참",
         "저절로 떨어짐",
@@ -969,7 +969,7 @@
     {
       "id": "r10",
       "name": "우리는 세상",
-      "image": "cards/r10.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r10.jpg",
       "keywords": [
         "한 식구",
         "어우러짐",
@@ -982,7 +982,7 @@
     {
       "id": "r11",
       "name": "모험",
-      "image": "cards/r11.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r11.jpg",
       "keywords": [
         "아이의 발걸음",
         "모르는 길",
@@ -995,7 +995,7 @@
     {
       "id": "r12",
       "name": "속도 늦추기",
-      "image": "cards/r12.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r12.jpg",
       "keywords": [
         "천천히",
         "거북이 걸음",
@@ -1008,7 +1008,7 @@
     {
       "id": "r13",
       "name": "꽃피움",
-      "image": "cards/r13.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r13.jpg",
       "keywords": [
         "활짝 핌",
         "향기를 나눔",
@@ -1021,7 +1021,7 @@
     {
       "id": "r14",
       "name": "풍요",
-      "image": "cards/r14.jpg",
+      "image": "https://moonhong1164.github.io/MoonHongOshoZen/cards/r14.jpg",
       "keywords": [
         "안팎의 넉넉함",
         "삶을 누림",
